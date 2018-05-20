@@ -1,0 +1,114 @@
+{
+  "elements": [
+    {
+      "type": "Label",
+      "label": "___ [ Support ] ________________________________________________________________________________________"
+    },
+    {
+      "type": "Label",
+      "label": "If you like this module and want to support further development of my symcon modules, feel free to donate at www.paypal.me/codeking"
+    },
+    {
+      "type": "Label",
+      "label": "www.paypal.me/codeking"
+    },
+    {
+      "type": "Label",
+      "label": "___ [ UniFi Controller ] __________________________________________________________________________________________"
+    },
+    {
+      "name": "url",
+      "type": "ValidationTextBox",
+      "caption": "Controller URL"
+    },
+    {
+      "name": "user",
+      "type": "ValidationTextBox",
+      "caption": "User"
+    },
+    {
+      "name": "password",
+      "type": "PasswordTextBox",
+      "caption": "Password"
+    },
+    {
+      "type": "Label",
+      "label": "___ [ Presence Detection ] __________________________________________________________________________________________"
+    },
+    {
+      "type": "List",
+      "name": "devices",
+      "caption": "WiFi Devices",
+      "add": true,
+      "delete": true,
+      "sort": {
+        "column": "presence_devices",
+        "direction": "ascending"
+      },
+      "columns": [
+        {
+          "label": "Device",
+          "name": "name",
+          "width": "120px",
+          "add": "iPhone",
+          "edit": {
+            "type": "ValidationTextBox"
+          }
+        },
+        {
+          "label": "MAC Address",
+          "name": "mac",
+          "width": "auto",
+          "add": "00:00:00:00:00",
+          "edit": {
+            "type": "ValidationTextBox"
+          }
+        }
+      ],
+      "values": [
+      ]
+    },
+    {
+      "type": "Label",
+      "label": "Time offset until a device will set as offline (in minutes)"
+    },
+    {
+      "type": "NumberSpinner",
+      "name": "presence_online_time",
+      "caption": ""
+    },
+    {
+      "type": "Label",
+      "label": "___ [ Logging ] ________________________________________________________________________________________"
+    },
+    {
+      "type": "CheckBox",
+      "name": "log",
+      "caption": "enable logging"
+    }
+  ],
+  "status": [
+    {
+      "code": 101,
+      "icon": "inactive",
+      "caption": "Please enter the login details of your UniFi controller."
+    },
+    {
+      "code": 102,
+      "icon": "active",
+      "caption": "UniFi login information are valid!"
+    },
+    {
+      "code": 201,
+      "icon": "error",
+      "caption": "Error: Could not connect to unifi controller! Please check your credentials!"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Button",
+      "label": "Get Data",
+      "onClick": "Unifi_Update($id);Unifi_UpdatePresence($id);"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "translations": {
+    "de": {
+      "___ [ Presence Detection ] __________________________________________________________________________________________": "___ [ Anwesenheitserkennung ] __________________________________________________________________________________________",
+      "Please enter the login details of your UniFi controller.": "Bitte hinterlege die Zugangsdaten von deinem UniFi Controller.",
+      "Time offset until a device will set as offline (in minutes)": "Zeit bis ein Gerät als abwesend gesetzt wird (in Minuten)",
+      "User": "User",
+      "Password": "Passwort",
+      "Device Name": "Geräte Name",
+      "MAC Address": "MAC Adresse",
+      "Error: Could not connect to unifi controller! Please check your credentials!": "Fehler: Konnte keine Verbindung zum UniFi Controller herstellen! Bitte überprüfe deine Zugangsdaten.",
+      "UniFi login information are valid!": "Die UniFi Zugangsdaten sind gültig!",
+      "Get Data": "Daten abrufen",
+      "Guests Online": "Gäste online",
+      "Latency": "Latenz",
+      "WiFi: Guests": "WLAN: Gäste",
+      "Presences": "Anwesenheiten",
+      "present": "anwesend",
+      "absent": "abwesend",
+      "WiFi Devices": "WLAN Geräte",
+      "Device": "Gerät",
+      "___ [ Logging ] ________________________________________________________________________________________": "___ [ Debug Log ] _____________________________________________________________________________________________",
+      "enable logging": "Log Meldungen aktivieren",
+      "___ [ Support ] ________________________________________________________________________________________": "___ [ Unterstützung ] __________________________________________________________________________________________",
+      "If you like this module and want to support further development of my symcon modules, feel free to donate at www.paypal.me/codeking": "Wenn dir dieses Modul gefällt oder du die weitere Entwicklung von IP-Symcon Modulen von mir unterstützen möchtest,\r\nkannst du mir gerne eine kleine Spende zukommen lassen."
+    }
+  }
+}

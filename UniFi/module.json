@@ -1,0 +1,13 @@
+{
+  "id": "{00931D57-29D8-4AD4-921C-3FAC22F76C97}",
+  "name": "UniFi",
+  "type": 3,
+  "vendor": "Ubiquiti",
+  "aliases": [
+    "UniFi"
+  ],
+  "parentRequirements": [],
+  "childRequirements": [],
+  "implemented": [],
+  "prefix": "Unifi"
+}
