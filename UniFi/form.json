@@ -42,7 +42,7 @@
       "add": true,
       "delete": true,
       "sort": {
-        "column": "presence_devices",
+        "column": "Device",
         "direction": "ascending"
       },
       "columns": [
