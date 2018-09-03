@@ -39,6 +39,7 @@
       "type": "List",
       "name": "devices",
       "caption": "WiFi Devices",
+      "rowCount": 5,
       "add": true,
       "delete": true,
       "sort": {
