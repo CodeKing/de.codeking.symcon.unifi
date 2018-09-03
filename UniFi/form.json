@@ -42,7 +42,7 @@
       "add": true,
       "delete": true,
       "sort": {
-        "column": "Device",
+        "column": "name",
         "direction": "ascending"
       },
       "columns": [
